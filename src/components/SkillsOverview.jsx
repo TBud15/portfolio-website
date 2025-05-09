@@ -1,39 +1,78 @@
 export default function SkillsOverview() {
   return (
     <div>
-      <div className="mx-auto bg-[#161B22] text-white p-15 rounded-xl shadow-md z-10 border border-[#30363D] text-xl ml-60 mr-130 mt-225">
-        <h2 className="text-[#FFB77C] text-4xl font-bold mb-4">Skills</h2>
+      {/* desktop layout */}
+      <div className="hidden lg:block mx-auto bg-[#161B22] text-white p-15 rounded-xl shadow-md z-10 border border-[#30363D] text-xl ml-60 mr-130 mt-225">
+        <h2 className="text-[#EFE828] text-4xl font-bold mb-4">Skills</h2>
 
         <div className="mb-6">
-          <h3 className="text-[#FFB77C] text-lg font-semibold mb-2">
+          <h3 className="text-[#F7FD5A] text-lg font-semibold mb-2">
             Frontend Development
           </h3>
           <ul className="list-disc list-inside space-y-1">
-            <li>Experienced with React, Next.js, Tailwind CSS</li>
-            <li>Responsive design and mobile-first approach</li>
-            <li>Framer Motion animations and component structure</li>
+            <li>React, Next.js, Tailwind CSS, GSAP</li>
+            <li>Responsive design & mobile-first layouts</li>
+            <li>Framer Motion, GSAP animations & component organization</li>
           </ul>
         </div>
 
         <div className="mb-6">
-          <h3 className="text-[#FFB77C] text-lg font-semibold mb-2">
+          <h3 className="text-[#F7FD5A] text-lg font-semibold mb-2">
             Backend & Fullstack
           </h3>
           <ul className="list-disc list-inside space-y-1">
-            <li>Supabase, PostgreSQL, Prisma basics</li>
-            <li>Authentication and secure paywall logic</li>
-            <li>Stripe integration and protected API handling</li>
+            <li>Django, PostgreSQL, Heroku, Supabase</li>
+            <li>Authentication, secure Stripe checkout components</li>
+            <li>Stripe integration, protected API routes</li>
           </ul>
         </div>
 
         <div className="mb-6">
-          <h3 className="text-[#FFB77C] text-lg font-semibold mb-2">
-            Other Tools
+          <h3 className="text-[#F7FD5A] text-lg font-semibold mb-2">
+            Other Tools & Practices
           </h3>
           <ul className="list-disc list-inside space-y-1">
             <li>Figma-based UI implementation</li>
-            <li>SEO awareness, Google Ads planning</li>
-            <li>Github project structure and deployment with Vercel</li>
+            <li>SEO structure, Google Ads setup</li>
+            <li>Git - GitHub & Website deployment</li>
+          </ul>
+        </div>
+      </div>
+
+      {/* mobile layout */}
+      <div className="lg:hidden px-6 mt-12 bg-[#161B22] text-white p-6 rounded-xl shadow-md border border-[#30363D]">
+        <h2 className="text-[#EFE828] text-3xl font-bold mb-6">Skills</h2>
+
+        <div className="mb-6">
+          <h3 className="text-[#F7FD5A] text-lg font-semibold mb-2">
+            Frontend Development
+          </h3>
+          <ul className="list-disc list-inside space-y-1 text-base">
+            <li>React, Next.js, Tailwind CSS, GSAP</li>
+            <li>Responsive & mobile-first</li>
+            <li>Framer Motion UI</li>
+          </ul>
+        </div>
+
+        <div className="mb-6">
+          <h3 className="text-[#F7FD5A] text-lg font-semibold mb-2">
+            Backend & Fullstack
+          </h3>
+          <ul className="list-disc list-inside space-y-1 text-base">
+            <li>Supabase, PostgreSQL, Heroku</li>
+            <li>Auth + secure paywall via Stripe</li>
+            <li>Stripe & API security</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="text-[#F7FD5A] text-lg font-semibold mb-2">
+            Other Tools
+          </h3>
+          <ul className="list-disc list-inside space-y-1 text-base">
+            <li>Figma-based UIs</li>
+            <li>SEO, Google Ads</li>
+            <li>Git - GitHub & website deployment</li>
           </ul>
         </div>
       </div>

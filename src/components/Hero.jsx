@@ -1,8 +1,37 @@
 "use client";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
+import { useEffect, useRef } from "react";
+import gsap from "gsap";
 
 export default function Hero() {
+  const linkedinRef = useRef(null);
+  const githubRef = useRef(null);
+  const lineRef = useRef(null);
+
+  useEffect(() => {
+    // linkedin animation
+    gsap.fromTo(
+      linkedinRef.current,
+      { opacity: 0, x: 60, y: 60 },
+      { opacity: 1, x: 0, y: 0, duration: 1.2, ease: "power3.out", delay: 0.8 }
+    );
+
+    // github animation
+    gsap.fromTo(
+      githubRef.current,
+      { opacity: 0, x: 60, y: 60 },
+      { opacity: 1, x: 0, y: 0, duration: 1.2, ease: "power3.out", delay: 1 }
+    );
+
+    // line grow animation
+    gsap.fromTo(
+      lineRef.current,
+      { height: 0 },
+      { height: "20rem", duration: 1.4, ease: "power2.out", delay: 0.5 }
+    );
+  }, []);
+
   return (
     <section
       className="relative mb-10 lg:h-[700px] bg-cover bg-center bg-no-repeat flex flex-col lg:flex-row items-center lg:items-start px-4 lg:px-8 "
@@ -38,11 +67,13 @@ export default function Hero() {
             <p className="text-lg lg:text-4xl text-gray-500">
               Aspiring Software Engineer
             </p>
+
             {/* LinkedIn */}
             <a
               href="https://www.linkedin.com/in/tymur-budahov/"
               target="_blank"
               rel="noopener noreferrer"
+              ref={linkedinRef}
             >
               <img src="/linkedin.png" alt="Linkedin" className="w-6 lg:w-12" />
             </a>
@@ -52,14 +83,15 @@ export default function Hero() {
               href="https://github.com/TBud15"
               target="_blank"
               rel="noopener noreferrer"
+              ref={githubRef}
             >
               <img src="/github.png" alt="Github" className="w-6 lg:w-12" />
             </a>
 
             {/* Telegram */}
-            <a href="/asdasd" target="_blank" rel="noopener noreferrer">
+            {/* <a href="/asdasd" target="_blank" rel="noopener noreferrer">
               <img src="/telegram.png" alt="Telegram" className="w-6 lg:w-12" />
-            </a>
+            </a> */}
           </div>
         </div>
 
@@ -68,7 +100,11 @@ export default function Hero() {
           {/* vertical line -  only show on large screens */}
           <div className="hidden lg:flex flex-col items-center relative">
             <div className="w-4 h-4 rounded-full bg-[#B283F8] z-10" />
-            <div className="absolute top-3 left-1/2 -translate-x-1/2 w-[4px] h-80 bg-gradient-to-b from-[#B283F8] to-[#85D996]" />
+            <div
+              ref={lineRef}
+              className="absolute top-3 left-1/2 -translate-x-1/2 w-[4px] bg-gradient-to-b from-[#B283F8] to-[#85D996]"
+              style={{ height: "20rem" }}
+            />
             <div className="h-78" />
             <div className="text-[#85D996] z-10">
               <svg
@@ -92,11 +128,11 @@ export default function Hero() {
           <div className="w-[160px] lg:w-[250px] h-[160px] lg:h-[250px] rounded-full bg-[#3950C4] p-px mt-6 lg:mt-0 ml-0 lg:ml-13">
             <div className="w-full h-full rounded-full bg-[#0D1117] p-2">
               <Image
-                src="/intro-photo.jpg"
+                src="/profile-photo.webp"
                 alt="Author"
                 width={200}
                 height={200}
-                className="w-full h-full rounded-full object-cover"
+                className="w-full h-full rounded-full object-cover object-top"
               />
             </div>
           </div>

@@ -20,14 +20,17 @@ export default function AboutMe() {
 
         {/* right side text */}
         <div className="ml-20">
-          <h1 className="text-[#7EE787] text-5xl mt-1">About Me</h1>
+          <h1 className="text-[#7EE787] text-5xl mt-1" id="about">
+            About Me
+          </h1>
           <p className="text-3xl w-240 mt-12">
             <span className="text-[#7EE787]">
-              Lorem ipsum dolor sit amet. consectetur adipiscing elit. Praesent
-              imperdiet ante tortor,{" "}
-            </span>
-            sit amet mollis erat placerat suscipit. Nulla lobortis et libero sit
-            amet congue.
+              I'm a full-stack developer with a foundation in finance and a
+              passion for building modern, intuitive web applications.
+            </span>{" "}
+            I'm currently studying Computer Science at Florida International
+            University, combining technical skill with real-world project
+            experience.
           </p>
         </div>
       </div>
@@ -37,11 +40,12 @@ export default function AboutMe() {
         <h1 className="text-[#7EE787] text-4xl">About Me</h1>
         <p className="text-xl leading-relaxed">
           <span className="text-[#7EE787]">
-            Lorem ipsum dolor sit amet. consectetur adipiscing elit. Praesent
-            imperdiet ante tortor,
+            I'm a full-stack developer with a foundation in finance and a
+            passion for building modern, intuitive web applications.
           </span>{" "}
-          sit amet mollis erat placerat suscipit. Nulla lobortis et libero sit
-          amet congue.
+          I'm currently studying Computer Science at Florida International
+          University, combining technical skill with real-world project
+          experience.
         </p>
       </div>
 
@@ -50,23 +54,18 @@ export default function AboutMe() {
         {/* top container - shared layout */}
         <div className="w-full lg:w-[80%] mx-auto bg-[#161B22] text-white p-6 lg:p-15 rounded-xl shadow-md z-10 relative text-start border border-[#30363D]">
           <p className="leading-relaxed text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            imperdiet ante tortor, sit amet mollis erat placerat suscipit. Nulla
-            lobortis et libero sit amet congue. Donec quis odio at augue
-            imperdiet posuere. Sed ullamcorper hendrerit auctor. In laoreet arcu
-            maximus fringilla ornare. Sed quam leo, maximus a sodales
-            scelerisque, lacinia vitae tortor. Aenean tincidunt porttitor
-            pulvinar. Aliquam fermentum consequat orci, sed euismod diam posuere
-            ut. Vestibulum ante massa, rutrum eu enim consequat, tincidunt
-            tincidunt eros.
+            With a background in both frontend and backend technologies, I've
+            developed projects that emphasize clean architecture, secure
+            authentication, and thoughtful UX. I'm experienced in using React,
+            Next.js, Django, PostgreSQL, Stripe and Supabase for building
+            scalable applications, and prioritize clean, maintainable code with
+            a strong understanding of modern development tools.
           </p>
           <p className="mt-5 text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            imperdiet ante tortor, sit amet mollis erat placerat suscipit. Nulla
-            lobortis et libero sit amet congue. Donec quis odio at augue
-            imperdiet posuere. Sed ullamcorper hendrerit auctor. In laoreet arcu
-            maximus fringilla ornare. Sed quam leo, maximus a sodales
-            scelerisque, lacinia vitae tortor.
+            My approach balances performance, visual design, and functionality.
+            I'm comfortable working across the stack - from implementing UI
+            using Figma to integrating secure API routes and server-side
+            rendering logic in Next.js.
           </p>
         </div>
 
@@ -87,12 +86,11 @@ export default function AboutMe() {
             {/* bottom overlapping container */}
             <div className="bg-[#161B22] text-white p-6 lg:p-15 rounded-xl shadow-md text-start border border-[#6E7681] mt-15 lg:mt-0">
               <p className="leading-relaxed text-xl">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Praesent imperdiet ante tortor, sit amet mollis erat placerat
-                suscipit. Nulla lobortis et libero sit amet congue. Donec quis
-                odio at augue imperdiet posuere. Sed ullamcorper hendrerit
-                auctor. In laoreet arcu maximus fringilla ornare. Sed quam leo,
-                maximus a sodales scelerisque, lacinia vitae tortor.
+                Outside of coding, I enjoy analyzing user feedback to
+                continuously improve the digital experience. I'm always looking
+                for new challenges and opportunities to grow as a developer, and
+                enjoy writing efficient, reliable solutions for real-world
+                problems. In my free time, I enjoy civil aviation.
               </p>
             </div>
           </div>
@@ -101,7 +99,7 @@ export default function AboutMe() {
 
       {/* final vertical line under everything */}
       <div className="hidden lg:flex ml-27">
-        <div className="w-[4px] h-[250px] bg-gradient-to-b from-transparent to-[#EC6547]" />
+        <div className="w-[4px] h-[100px] bg-gradient-to-b from-transparent to-[#EC6547]" />
       </div>
     </div>
   );
