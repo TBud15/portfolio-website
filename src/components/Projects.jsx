@@ -34,7 +34,7 @@ export default function Projects() {
       </div>
 
       {/* skills overview */}
-      <div className="relative top-223">
+      <div>
         <SkillsOverview />
       </div>
     </div>

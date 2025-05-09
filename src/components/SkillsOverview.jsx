@@ -1,7 +1,7 @@
 export default function SkillsOverview() {
   return (
     <div>
-      <div className="mx-auto bg-[#161B22] text-white p-15 rounded-xl shadow-md z-10 border border-[#30363D] text-xl ml-60 mr-130 top-350">
+      <div className="mx-auto bg-[#161B22] text-white p-15 rounded-xl shadow-md z-10 border border-[#30363D] text-xl ml-60 mr-130 mt-225">
         <h2 className="text-[#FFB77C] text-4xl font-bold mb-4">Skills</h2>
 
         <div className="mb-6">
