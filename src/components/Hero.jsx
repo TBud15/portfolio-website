@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 export default function Hero() {
   return (
     <section
-      className="relative h-[700px] bg-cover bg-center bg-no-repeat flex flex-col lg:flex-row items-center lg:items-start px-4 lg:px-8 "
+      className="relative mb-10 lg:h-[700px] bg-cover bg-center bg-no-repeat flex flex-col lg:flex-row items-center lg:items-start px-4 lg:px-8 "
       style={{ backgroundImage: "url('/home-pattern.png')" }}
     >
       <Navbar />
