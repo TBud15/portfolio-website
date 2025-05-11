@@ -56,7 +56,7 @@ export default function ProjectsDetails() {
           </p>
         </div>
 
-        <div className="absolute top-208 left-60">
+        <div className="absolute top-195 left-60">
           <div className="bg-[#161B22] text-white p-15 rounded-xl border border-[#6E7681] w-[600px]">
             <h2 className="text-[#FFB77C] text-xl font-bold mb-4">
               Candy Shop (Personal Project)
@@ -75,7 +75,7 @@ export default function ProjectsDetails() {
           </div>
         </div>
 
-        <div className="absolute top-190 left-27 z-1">
+        <div className="absolute top-180 left-27 z-1">
           <div className="w-[4px] h-[700px] bg-gradient-to-b from-[#EC6547] to-transparent" />
         </div>
 
@@ -87,7 +87,7 @@ export default function ProjectsDetails() {
           />
         </div>
 
-        <div className="absolute top-230 left-230 z-11">
+        <div className="absolute top-220 left-230 z-11">
           <div className="bg-[#161B22] text-white p-15 rounded-xl border border-[#6E7681] w-[681px] shadow-[0_4px_20px_rgba(255,182,120,0.3),0_6px_30px_rgba(255,162,120,0.2)]">
             <a
               href="https://candy-shop-frontend.vercel.app"
@@ -109,10 +109,8 @@ export default function ProjectsDetails() {
           </div>
         </div>
 
-        <div className="absolute x-auto bg-[#161B22] text-white p-15 rounded-xl shadow-md z-10 border border-[#30363D] text-xl ml-60 mr-130 top-350">
-          <h2 className="text-[#FFB77C] text-xl font-bold mb-4">
-            Candy Shop (Personal Project)
-          </h2>
+        <div className="absolute x-auto bg-[#161B22] text-white p-15 rounded-xl shadow-md z-10 border border-[#30363D] text-xl ml-60 mr-130 top-337">
+          <h2 className="text-[#FFB77C] text-xl font-bold mb-4">Candy Shop</h2>
           <p>
             This project was built in my free time as a way to challenge myself
             with full-stack development and deepen my understanding of modern

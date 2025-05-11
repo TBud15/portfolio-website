@@ -2,7 +2,7 @@ export default function SkillsOverview() {
   return (
     <div>
       {/* desktop layout */}
-      <div className="hidden lg:block mx-auto bg-[#161B22] text-white p-15 rounded-xl shadow-md z-10 border border-[#30363D] text-xl ml-60 mr-130 mt-225">
+      <div className="hidden lg:block mx-auto bg-[#161B22] text-white p-15 rounded-xl shadow-md z-10 border border-[#30363D] text-xl ml-60 mr-130 mt-215">
         <h2 className="text-[#EFE828] text-4xl font-bold mb-4">Skills</h2>
 
         <div className="mb-6">
@@ -32,9 +32,9 @@ export default function SkillsOverview() {
             Other Tools & Practices
           </h3>
           <ul className="list-disc list-inside space-y-1">
-            <li>Figma-based UI implementation</li>
-            <li>SEO structure, Google Ads setup</li>
+            <li>SEO, Google Analytics</li>
             <li>Git - GitHub & Website deployment</li>
+            <li>Figma UI basics</li>
           </ul>
         </div>
       </div>
@@ -70,9 +70,9 @@ export default function SkillsOverview() {
             Other Tools
           </h3>
           <ul className="list-disc list-inside space-y-1 text-base">
-            <li>Figma-based UIs</li>
-            <li>SEO, Google Ads</li>
+            <li>SEO, Google Analytics</li>
             <li>Git - GitHub & website deployment</li>
+            <li>Figma UIs basics</li>
           </ul>
         </div>
       </div>
