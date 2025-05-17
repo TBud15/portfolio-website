@@ -8,6 +8,8 @@ export default function Hero() {
   const linkedinRef = useRef(null);
   const githubRef = useRef(null);
   const lineRef = useRef(null);
+  const moonRef = useRef(null);
+  const fogRef = useRef(null);
 
   useEffect(() => {
     // linkedin animation
@@ -30,6 +32,20 @@ export default function Hero() {
       { height: 0 },
       { height: "20rem", duration: 1.4, ease: "power2.out", delay: 0.5 }
     );
+
+    // fog animation
+    gsap.fromTo(
+      fogRef.current,
+      { opacity: 0, x: -40, y: -40 },
+      { opacity: 1, x: 0, y: 0, duration: 1.2, ease: "power3.out", delay: 0.3 }
+    );
+
+    // moon animation
+    gsap.fromTo(
+      moonRef.current,
+      { opacity: 0, x: 40, y: 40 },
+      { opacity: 1, x: 0, y: 0, duration: 1.2, ease: "power3.out", delay: 0.6 }
+    );
   }, []);
 
   return (
@@ -41,6 +57,7 @@ export default function Hero() {
 
       {/* fog top right */}
       <img
+        ref={fogRef}
         src="/small-celestial-fog.svg"
         alt="Fog"
         className="hidden lg:block absolute top-[20%] left-[73%] w-110"
@@ -48,6 +65,7 @@ export default function Hero() {
 
       {/* moon below fog */}
       <img
+        ref={moonRef}
         src="/moon-art.svg"
         alt="Moon Art"
         className="hidden lg:block absolute top-[50%] left-[45%] w-130"
