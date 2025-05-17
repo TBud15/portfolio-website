@@ -25,12 +25,14 @@ export default function AboutMe() {
           </h1>
           <p className="text-3xl w-240 mt-12">
             <span className="text-[#7EE787]">
-              I'm a full-stack developer with a foundation in finance and a
-              passion for building modern, intuitive web applications.
+              I received my first Bachelor's degree in Finance from Florida
+              Atlantic University, graduating with a 3.8 GPA, and I'm currently
+              pursuing a degree in Computer Science at Florida International
+              University.
             </span>{" "}
-            I'm currently studying Computer Science at Florida International
-            University, combining technical skill with real-world project
-            experience.
+            I'm actively seeking roles in financial analysis, business
+            analytics, or operations, where I can apply both my business
+            background and technical skills to solve real-world problems.
           </p>
         </div>
       </div>
@@ -40,12 +42,14 @@ export default function AboutMe() {
         <h1 className="text-[#7EE787] text-4xl">About Me</h1>
         <p className="text-xl leading-relaxed">
           <span className="text-[#7EE787]">
-            I'm a full-stack developer with a foundation in finance and a
-            passion for building modern, intuitive web applications.
+            I received my first Bachelor's degree in Finance from Florida
+            Atlantic University, graduating with a 3.8 GPA, and I'm currently
+            pursuing a degree in Computer Science at Florida International
+            University.
           </span>{" "}
-          I'm currently studying Computer Science at Florida International
-          University, combining technical skill with real-world project
-          experience.
+          I'm actively seeking roles in financial analysis, business analytics,
+          or operations, where I can apply both my business background and
+          technical skills to solve real-world problems.
         </p>
       </div>
 
@@ -54,18 +58,20 @@ export default function AboutMe() {
         {/* top container - shared layout */}
         <div className="w-full lg:w-[80%] mx-auto bg-[#161B22] text-white p-6 lg:p-15 rounded-xl shadow-md z-10 relative text-start border border-[#30363D]">
           <p className="leading-relaxed text-xl">
-            With a background in both frontend and backend technologies, I've
-            developed projects that emphasize clean architecture, secure
-            authentication, and thoughtful UX. I'm experienced in using React,
-            Next.js, Django, PostgreSQL, Stripe and Supabase for building
-            scalable applications, and prioritize clean, maintainable code with
-            a strong understanding of modern development tools.
+            My finance education included coursework in Financial Analysis,
+            Corporate Finance, Investments, and Quantitative Business Analysis,
+            giving me a strong foundation in interpreting financial data,
+            forecasting, and performance evaluation. I'm confident using tools
+            like Excel, SQL (PostgreSQL), and Python for data analysis,
+            reporting, and automation.
           </p>
           <p className="mt-5 text-xl">
-            My approach balances performance, visual design, and functionality.
-            I'm comfortable working across the stack - from implementing UI
-            using Figma to integrating secure API routes and server-side
-            rendering logic in Next.js.
+            On the technical side, I've built full-stack applications using
+            React, Next.js, Django (Python), Stripe, and Supabase, with a focus
+            on clean architecture, secure authentication, and user-centered
+            design. I enjoy working across the stack — from developing
+            responsive frontends to building secure API routes and backend logic
+            using modern web frameworks like Next.js.
           </p>
         </div>
 
@@ -86,11 +92,12 @@ export default function AboutMe() {
             {/* bottom overlapping container */}
             <div className="bg-[#161B22] text-white p-6 lg:p-15 rounded-xl shadow-md text-start border border-[#6E7681] mt-15 lg:mt-0">
               <p className="leading-relaxed text-xl">
-                Outside of coding, I enjoy analyzing user feedback to
-                continuously improve the digital experience. I'm always looking
-                for new challenges and opportunities to grow as a developer, and
-                enjoy writing efficient, reliable solutions for real-world
-                problems. In my free time, I enjoy civil aviation.
+                I enjoy exploring how systems work — whether it's improving
+                digital experiences through user feedback or understanding
+                complex processes in fields like civil aviation, which I follow
+                closely in my free time. I'm always looking for opportunities to
+                grow, take on new challenges, and contribute to meaningful,
+                data-informed work.
               </p>
             </div>
           </div>

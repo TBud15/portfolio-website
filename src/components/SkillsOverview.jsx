@@ -7,6 +7,22 @@ export default function SkillsOverview() {
 
         <div className="mb-6">
           <h3 className="text-[#F7FD5A] text-lg font-semibold mb-2">
+            Finance & Analytics
+          </h3>
+          <ul className="list-disc list-inside space-y-1">
+            <li>
+              Financial Analysis, Forecasting, Budgeting, Financial Reporting
+            </li>
+            <li>Excel, SQL (PostgreSQL), Python</li>
+            <li>
+              Quantitative Business Analysis, Investments, Corporate Finance,
+              Financial Statement Analysis
+            </li>
+          </ul>
+        </div>
+
+        <div className="mb-6">
+          <h3 className="text-[#F7FD5A] text-lg font-semibold mb-2">
             Frontend Development
           </h3>
           <ul className="list-disc list-inside space-y-1">

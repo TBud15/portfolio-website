@@ -24,9 +24,9 @@ export default function Contact() {
           <h1 className="text-[#939AFF] text-5xl mt-43">Contact</h1>
           <p className="text-3xl w-240 mt-12">
             <span className="text-[#939AFF]">Want to get in touch? </span>
-            Feel free to reach out regarding collaboration, internship
-            opportunities, or tech projects. I'm always open to connecting with
-            others who share a passion for development.
+            Feel free to reach out regarding collaboration, opportunities, or
+            tech projects. I'm always open to connecting with others who share a
+            passion for finance or development.
           </p>
 
           {/* contact info */}

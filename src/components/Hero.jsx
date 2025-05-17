@@ -65,7 +65,7 @@ export default function Hero() {
           </h2>
           <div className="flex flex-wrap justify-center lg:justify-start items-center gap-3 lg:gap-5">
             <p className="text-lg lg:text-4xl text-gray-500">
-              Aspiring Software Engineer
+              Finance graduate & Computer Science student
             </p>
 
             {/* LinkedIn */}
